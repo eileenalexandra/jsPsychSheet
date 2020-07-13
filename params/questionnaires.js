@@ -30,18 +30,18 @@ recontact_scale = ['Yes, I agree to be contacted about future research studies.'
 qs_instructions = {
 	oci_r: "The following statements refer to experiences that many people have in their everyday lives. Circle the number that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH.", 
 	sds: "For each item below, please select which best describes how often you felt or behaved this way during the past several days", 
-	stai_p1: "A number of statements which people have used to describe themselvesare given below. Read each statement and then select the appropriate number to theright of the statement to indicate how you feel right now, that is, at this moment.There are no wrong or right answers. Do not spend too much time on any onestatement but give the answer which seems to describe your present feelings best.", 
-	stai_p2: "A number of statements which people have used to describe themselvesare given below. Read each statement and then circle the appropriate number to theright of the statement to indicate how you generally feel. There are no wrong or rightanswers. Do not spend too much time on any one statement but give the answer whichseems to describe how you generally feel.", 
+	stai_p1: "A number of statements which people have used to describe themselves are given below. Read each statement and then select the appropriate number to the right of the statement to indicate how you feel right now, that is, at this moment. There are no wrong or right answers. Do not spend too much time on any one statement but give the answer which seems to describe your present feelings best.", 
+	stai_p2: "A number of statements which people have used to describe themselves are given below. Read each statement and then circle the appropriate number to the right of the statement to indicate how you generally feel. There are no wrong or right answers. Do not spend too much time on any one statement but give the answer which seems to describe how you generally feel.", 
 	audit: "Your answers will remain confidential so please be honest. Place select the choice that best describes your answer to each question.", 
-	rbq_2a: "For each statement, indicate the degree to which that statement applies to you.Select the most appropriate response.", 
-	eat: "Please fill out the below form as accurately, honestly and completelyas possible. There are no right or wrong answers. All of your responses are confidential.", 
+	rbq_2a: "For each statement, indicate the degree to which that statement applies to you. Select the most appropriate response.", 
+	eat: "Please fill out the below form as accurately, honestly and completely as possible. There are no right or wrong answers. All of your responses are confidential.", 
 	abis: "People differ in the ways they act and think in different situations. This is a test to measure some of the ways in which you act and think. Read each statement and select the appropriate response. Do not spend too much time on any statement. Answer quickly and honestly.", 
 	o_life: "For each statement, say whether it applies to you or not.", 
-	asrs: "Please answer the questions below, rating yourself on each of thecriteria shown using the scale. As you answer each question, select the answer that best describes how you have felt and conducted yourself over the past six months.", 
+	asrs: "Please answer the questions below, rating yourself on each of the criteria shown using the scale. As you answer each question, select the answer that best describes how you have felt and conducted yourself over the past six months.", 
 	ftnd: "Please select one answer for each question.", 
-	ptq: "In this questionnaire, you will be asked to describe how you typically think aboutnegative experiences or problems. Please read the following statements and rate the extent towhich they apply to you when you think about negative experiences or problems.", 
-	dem: "Please respond to the following demographic information", 
-	recontact: "Test"
+	ptq: "In this questionnaire, you will be asked to describe how you typically think about negative experiences or problems. Please read the following statements and rate the extent to which they apply to you when you think about negative experiences or problems.", 
+	dem: "Please respond to the following demographic information.", 
+	recontact: "You are almost done."
 }; 
 questionnaires = {
  'oci_r': [
@@ -51,10 +51,10 @@ questionnaires = {
  	{name: "OCI-R_04", prompt: "I feel compelled to count while I am doing things.", labels: oci_r_scale, required: false},
  	{name: "OCI-R_05", prompt: "I find it difficult to touch an object when I know it has been touched by strangers or certain people.", labels: oci_r_scale, required: false},
  	{name: "OCI-R_06", prompt: "I find it difficult to control my own thoughts.", labels: oci_r_scale, required: false},
- 	{name: "OCI-R_07", prompt: "I collect things I don’t need.", labels: oci_r_scale, required: false},
+ 	{name: "OCI-R_07", prompt: "I collect things I don't need.", labels: oci_r_scale, required: false},
  	{name: "OCI-R_08", prompt: "I repeatedly check doors, windows, drawers, etc.", labels: oci_r_scale, required: false},
  	{name: "OCI-R_09", prompt: "I get upset if others change the way I have arranged things.", labels: oci_r_scale, required: false},
- 	{name: "CHECK_01", prompt: "If you are paying attention to these questions, please select ’A little’ as your answer", labels: oci_r_scale, required: false},
+ 	{name: "CHECK_01", prompt: "If you are paying attention to these questions, please select 'A little' as your answer", labels: oci_r_scale, required: false},
  	{name: "OCI-R_10", prompt: "I feel I have to repeat certain numbers.", labels: oci_r_scale, required: false},
  	{name: "OCI-R_11", prompt: "I sometimes have to wash or clean myself simply because I feel contaminated.", labels: oci_r_scale, required: false},
  	{name: "OCI-R_12", prompt: "I am upset by unpleasant thoughts that come into my mind against my will.", labels: oci_r_scale, required: false},
@@ -79,7 +79,7 @@ questionnaires = {
  	{name: "sds_10", prompt: "I get tired for no reason.", labels: sds_scale, required: false},
  	{name: "sds_11", prompt: "My mind is as clear as it used to be.", labels: sds_scale, required: false},
  	{name: "sds_12", prompt: "I find it easy to do the things I used to.", labels: sds_scale, required: false},
- 	{name: "sds_13", prompt: "I am restless and can’t keep still.", labels: sds_scale, required: false},
+ 	{name: "sds_13", prompt: "I am restless and can't keep still.", labels: sds_scale, required: false},
  	{name: "sds_14", prompt: "I feel hopeful about the future.", labels: sds_scale, required: false},
  	{name: "sds_15", prompt: "I am more irritable than usual.", labels: sds_scale, required: false},
  	{name: "sds_16", prompt: "I find it easy to make decisions.", labels: sds_scale, required: false},
@@ -87,7 +87,7 @@ questionnaires = {
  	{name: "sds_18", prompt: "My life is pretty full.", labels: sds_scale, required: false},
  	{name: "sds_19", prompt: "I feel that others would be better off if Iwere dead.", labels: sds_scale, required: false},
  	{name: "sds_20", prompt: "I still enjoy the things I used to do.", labels: sds_scale, required: false},
- 	{name: "CHECK_02", prompt: "If you are paying attention to these questions, please select ’A little of the time’ as your answer", labels: sds_scale, required: false}
+ 	{name: "CHECK_02", prompt: "If you are paying attention to these questions, please select 'A little of the time' as your answer", labels: sds_scale, required: false}
 ],
 
  'stai_p1': [
@@ -104,11 +104,11 @@ questionnaires = {
  	{name: "stai_11", prompt: "I feel self-confident", labels: stai_scale, required: false},
  	{name: "stai_12", prompt: "I feel nervous", labels: stai_scale, required: false},
  	{name: "stai_13", prompt: "I am jittery", labels: stai_scale, required: false},
- 	{name: "stai_14", prompt: "I feel “high strung”", labels: stai_scale, required: false},
+ 	{name: "stai_14", prompt: "I feel \"high strung\"", labels: stai_scale, required: false},
  	{name: "stai_15", prompt: "I am relaxed", labels: stai_scale, required: false},
  	{name: "stai_16", prompt: "I feel confident", labels: stai_scale, required: false},
  	{name: "stai_17", prompt: "I am worried", labels: stai_scale, required: false},
- 	{name: "stai_18", prompt: "I feel over-excited and “rattled”", labels: stai_scale, required: false},
+ 	{name: "stai_18", prompt: "I feel over-excited and \"rattled\"", labels: stai_scale, required: false},
  	{name: "stai_19", prompt: "I feel joyful", labels: stai_scale, required: false},
  	{name: "stai_20", prompt: "I feel pleasant", labels: stai_scale, required: false}
 ],
@@ -118,11 +118,11 @@ questionnaires = {
  	{name: "stai_22", prompt: "I tire quickly", labels: stai_scale, required: false},
  	{name: "stai_23", prompt: "I feel like crying", labels: stai_scale, required: false},
  	{name: "stai_24", prompt: "I wish I could be as happy as others seem to be", labels: stai_scale, required: false},
- 	{name: "stai_25", prompt: "I am losing out on things because I can’t make up my mind soon enough", labels: stai_scale, required: false},
+ 	{name: "stai_25", prompt: "I am losing out on things because I can't make up my mind soon enough", labels: stai_scale, required: false},
  	{name: "stai_26", prompt: "I feel rested", labels: stai_scale, required: false},
- 	{name: "stai_27", prompt: "I am “calm, cool, and collected”", labels: stai_scale, required: false},
+ 	{name: "stai_27", prompt: "I am \"calm, cool, and collected\"", labels: stai_scale, required: false},
  	{name: "stai_28", prompt: "I feel that difficulties are piling up so that I cannot overcome them", labels: stai_scale, required: false},
- 	{name: "stai_29", prompt: "I worry too much over something that doesn’t really matter", labels: stai_scale, required: false},
+ 	{name: "stai_29", prompt: "I worry too much over something that doesn't really matter", labels: stai_scale, required: false},
  	{name: "stai_30", prompt: "I am happy", labels: stai_scale, required: false},
  	{name: "stai_31", prompt: "I am inclined to take things hard", labels: stai_scale, required: false},
  	{name: "stai_32", prompt: "I lack self-confidence", labels: stai_scale, required: false},
@@ -131,7 +131,7 @@ questionnaires = {
  	{name: "stai_35", prompt: "I feel blue", labels: stai_scale, required: false},
  	{name: "stai_36", prompt: "I am content", labels: stai_scale, required: false},
  	{name: "stai_37", prompt: "Some unimportant thought runs through my head and bothers me", labels: stai_scale, required: false},
- 	{name: "stai_38", prompt: "I take disappointments so keenly that I can’t put them out of my mind", labels: stai_scale, required: false},
+ 	{name: "stai_38", prompt: "I take disappointments so keenly that I can't put them out of my mind", labels: stai_scale, required: false},
  	{name: "stai_39", prompt: "I am a steady person", labels: stai_scale, required: false},
  	{name: "stai_40", prompt: "I get in a state of tension or turmoil as I think over my recent concerns and interests", labels: stai_scale, required: false}
 ],
@@ -151,25 +151,25 @@ questionnaires = {
 
  'rbq_2a': [
 	{name: "rbq-2a_01", prompt: "Do you like to arrange items in rows or patterns?", labels: rbq_p1_scale, required: false},
- 	{name: "rbq-2a_02", prompt: "Do you repetitively fiddle with items? (e.g. spin,twiddle, bang, tap, twist, or flick anythingrepeatedly)?", labels: rbq_p1_scale, required: false},
+ 	{name: "rbq-2a_02", prompt: "Do you repetitively fiddle with items (e.g. spin, twiddle, bang, tap, twist, or flick anything repeatedly)?", labels: rbq_p1_scale, required: false},
  	{name: "rbq-2a_03", prompt: "Do you spin yourself around and around?", labels: rbq_p1_scale, required: false},
- 	{name: "rbq-2a_04", prompt: "Do you rock backwards and forwards, or side toside, either when sitting or when standing?", labels: rbq_p1_scale, required: false},
- 	{name: "rbq-2a_05", prompt: "Do you pace or move around repetitively (e.g. walk to and fro across a room, or around the samepath in the garden)?", labels: rbq_p1_scale, required: false},
- 	{name: "rbq-2a_06", prompt: "Do you make repetitive hand and/or fingermovements? (e.g. flap, wave, or flickyour hands or fingers repetitively?)", labels: rbq_p2_scale, required: false},
- 	{name: "rbq-2a_07", prompt: "Do you have a fascination with specific objects(e.g. trains, road signs, or other things?)", labels: rbq_p2_scale, required: false},
- 	{name: "rbq-2a_08", prompt: "Do you like to look at objects from particular or unusual angles?*", labels: rbq_p2_scale, required: false},
- 	{name: "rbq-2a_09", prompt: "Do you have a special interest in the smell ofpeople or objects?", labels: rbq_p2_scale, required: false},
- 	{name: "rbq-2a_10", prompt: "Do you have a special interest in the feel ofdifferent surfaces?*", labels: rbq_p2_scale, required: false},
- 	{name: "rbq-2a_11", prompt: "Do you have any special objects you like tocarry around?*", labels: rbq_p2_scale, required: false},
+ 	{name: "rbq-2a_04", prompt: "Do you rock backwards and forwards, or side to side, either when sitting or when standing?", labels: rbq_p1_scale, required: false},
+ 	{name: "rbq-2a_05", prompt: "Do you pace or move around repetitively (e.g. walk to and fro across a room, or around the same path in the garden)?", labels: rbq_p1_scale, required: false},
+ 	{name: "rbq-2a_06", prompt: "Do you make repetitive hand and/or finger movements? (e.g. flap, wave, or flick your hands or fingers repetitively?)", labels: rbq_p2_scale, required: false},
+ 	{name: "rbq-2a_07", prompt: "Do you have a fascination with specific objects (e.g. trains, road signs, or other things?)", labels: rbq_p2_scale, required: false},
+ 	{name: "rbq-2a_08", prompt: "Do you like to look at objects from particular or unusual angles?", labels: rbq_p2_scale, required: false},
+ 	{name: "rbq-2a_09", prompt: "Do you have a special interest in the smell of people or objects?", labels: rbq_p2_scale, required: false},
+ 	{name: "rbq-2a_10", prompt: "Do you have a special interest in the feel of different surfaces?", labels: rbq_p2_scale, required: false},
+ 	{name: "rbq-2a_11", prompt: "Do you have any special objects you like to carry around?*", labels: rbq_p2_scale, required: false},
  	{name: "rbq-2a_12", prompt: "Do you collect or hoard items of any sort?", labels: rbq_p3_scale, required: false},
- 	{name: "rbq-2a_13", prompt: "Do you insist on things at home remaining thesame? (e.g. furniture staying in the sameplace, things being kept in certainplaces, or arranged in certain ways?)**", labels: rbq_p3_scale, required: false},
- 	{name: "rbq-2a_14", prompt: "Do you get upset about minor changes toobjects (e.g. flecks of dirt on yourclothes, minor scratches on objects?)", labels: rbq_p3_scale, required: false},
+ 	{name: "rbq-2a_13", prompt: "Do you insist on things at home remaining the same? (e.g. furniture staying in the same place, things being kept in certain places, or arranged in certain ways?)", labels: rbq_p3_scale, required: false},
+ 	{name: "rbq-2a_14", prompt: "Do you get upset about minor changes to objects (e.g. flecks of dirt on your clothes, minor scratches on objects?)", labels: rbq_p3_scale, required: false},
  	{name: "rbq-2a_15", prompt: "Do you insist that aspects of daily routine must remain the same?", labels: rbq_p3_scale, required: false},
- 	{name: "rbq-2a_16", prompt: "Do you insist on doing things in a certain way orre-doing things until they “just right”?", labels: rbq_p3_scale, required: false},
- 	{name: "rbq-2a_17", prompt: "Do you play the same music, game or video, orread the same book repeatedly?*", labels: rbq_p4_scale, required: false},
- 	{name: "rbq-2a_18", prompt: "Do you Insist on wearing the same clothes orrefuse to wear new clothes?* ", labels: rbq_p4_scale, required: false},
- 	{name: "rbq-2a_19", prompt: "Do you Insist on eating the same foods, or avery small range of foods, at everymeal?*", labels: rbq_p4_scale, required: false},
- 	{name: "rbq-2a_20", prompt: "What sort of activity will you choose ifyou are left to occupy yourself?", labels: rbq_p5_scale, required: false}
+ 	{name: "rbq-2a_16", prompt: "Do you insist on doing things in a certain way or re-doing things until they \"just right\"?", labels: rbq_p3_scale, required: false},
+ 	{name: "rbq-2a_17", prompt: "Do you play the same music, game or video, or read the same book repeatedly?", labels: rbq_p4_scale, required: false},
+ 	{name: "rbq-2a_18", prompt: "Do you Insist on wearing the same clothes or refuse to wear new clothes?", labels: rbq_p4_scale, required: false},
+ 	{name: "rbq-2a_19", prompt: "Do you Insist on eating the same foods, or a very small range of foods, at every meal?", labels: rbq_p4_scale, required: false},
+ 	{name: "rbq-2a_20", prompt: "What sort of activity will you choose if you are left to occupy yourself?", labels: rbq_p5_scale, required: false}
 ],
 
  'eat': [
@@ -212,15 +212,15 @@ questionnaires = {
  	{name: "abis_03", prompt: "I do things without thinking.", labels: abis_scale, required: false},
  	{name: "abis_04", prompt: "I concentrate easily.", labels: abis_scale, required: false},
  	{name: "abis_05", prompt: "I plan for job security.", labels: abis_scale, required: false},
- 	{name: "abis_06", prompt: "I act “on impulse.”", labels: abis_scale, required: false},
+ 	{name: "abis_06", prompt: "I act \"on impulse.\"", labels: abis_scale, required: false},
  	{name: "abis_07", prompt: "I am self controlled.", labels: abis_scale, required: false},
  	{name: "abis_08", prompt: "I say things without thinking.", labels: abis_scale, required: false},
- 	{name: "abis_09", prompt: "I don’t “pay attention.”", labels: abis_scale, required: false},
+ 	{name: "abis_09", prompt: "I don't \"pay attention.\"", labels: abis_scale, required: false},
  	{name: "abis_10", prompt: "I act on the spur of the moment.", labels: abis_scale, required: false},
  	{name: "abis_11", prompt: "I plan tasks carefully.", labels: abis_scale, required: false},
  	{name: "abis_12", prompt: "I am a steady thinker.", labels: abis_scale, required: false},
  	{name: "abis_13", prompt: "I am future oriented.", labels: abis_scale, required: false},
- 	{name: "CHECK_03", prompt: "If you are paying attention to these questions, please select ’Often’ as your answer", labels: abis_scale, required: false}
+ 	{name: "CHECK_03", prompt: "If you are paying attention to these questions, please select 'Often' as your answer", labels: abis_scale, required: false}
 ],
 
  'o_life': [
@@ -285,29 +285,29 @@ questionnaires = {
  	{name: "asrs_13", prompt: "How often do you have difficulty unwinding and relaxing when you have time to yourself?", labels: asrs_scale, required: false},
  	{name: "asrs_14", prompt: "How often do you feel overly active and compelled to do things, like you were driven by a motor?", labels: asrs_scale, required: false},
  	{name: "asrs_15", prompt: "How often do you find yourself talking too much when you are in social situations?", labels: asrs_scale, required: false},
- 	{name: "asrs_16", prompt: "When you’re in a conversation, how often do you find yourself finishing the sentences of the people you are talking to, before they can finish them themselves?", labels: asrs_scale, required: false},
+ 	{name: "asrs_16", prompt: "When you're in a conversation, how often do you find yourself finishing the sentences of the people you are talking to, before they can finish them themselves?", labels: asrs_scale, required: false},
  	{name: "asrs_17", prompt: "How often do you have difficulty waiting your turn in situations when turn-taking is required?", labels: asrs_scale, required: false},
  	{name: "asrs_18", prompt: "How often do you interrupt others when they are busy?", labels: asrs_scale, required: false}
 ],
 
  'ftnd': [
-	{name: "ftnd_01", prompt: "How soon after waking do you smoke your first  cigarette?", labels: ftnd_1_scale, required: false},
- 	{name: "ftnd_02", prompt: "Do you find it difficult to refrain from smoking in places where it is forbidden? e.g. Church, Library, etc.", labels: ftnd_2_scale, required: false},
- 	{name: "ftnd_03", prompt: "Which cigarette would you hate to give up?", labels: ftnd_3_scale, required: false},
- 	{name: "ftnd_04", prompt: "How many cigarettes a day do you smoke?", labels: ftnd_4_scale, required: false},
- 	{name: "ftnd_05", prompt: "Do you smoke more frequently in the morning?", labels: ftnd_2_scale, required: false},
- 	{name: "ftnd_06", prompt: "Do you smoke even if you are sick in bed most of the day?", labels: ftnd_2_scale, required: false}
+	{name: "ftnd_01", prompt: "How soon after waking do you smoke your first cigarette?", labels: ftnd_1_scale, required: false},
+ 	{name: "ftnd_02", prompt: "Do you find it difficult to refrain from smoking in places where it is forbidden? e.g. Church, Library, etc.", labels: ftnd_2_scale, required: false},
+ 	{name: "ftnd_03", prompt: "Which cigarette would you hate to give up?", labels: ftnd_3_scale, required: false},
+ 	{name: "ftnd_04", prompt: "How many cigarettes a day do you smoke?", labels: ftnd_4_scale, required: false},
+ 	{name: "ftnd_05", prompt: "Do you smoke more frequently in the morning?", labels: ftnd_2_scale, required: false},
+ 	{name: "ftnd_06", prompt: "Do you smoke even if you are sick in bed most of the day?", labels: ftnd_2_scale, required: false}
 ],
 
  'ptq': [
 	{name: "ptq_01", prompt: "The same thoughts keep going through my mind again and again.", labels: ptq_scale, required: false},
  	{name: "ptq_02", prompt: "Thoughts intrude into my mind.", labels: ptq_scale, required: false},
- 	{name: "ptq_03", prompt: "I can’t stop dwelling on them.", labels: ptq_scale, required: false},
+ 	{name: "ptq_03", prompt: "I can't stop dwelling on them.", labels: ptq_scale, required: false},
  	{name: "ptq_04", prompt: "I think about many problems without solving any of them.", labels: ptq_scale, required: false},
- 	{name: "ptq_05", prompt: "I can’t do anything else while thinking about my problems.", labels: ptq_scale, required: false},
+ 	{name: "ptq_05", prompt: "I can't do anything else while thinking about my problems.", labels: ptq_scale, required: false},
  	{name: "ptq_06", prompt: "My thoughts repeat themselves.", labels: ptq_scale, required: false},
  	{name: "ptq_07", prompt: "Thoughts come to my mind without me wanting them to.", labels: ptq_scale, required: false},
- 	{name: "ptq_08", prompt: "I get stuck on certain issues and can’t move on.", labels: ptq_scale, required: false},
+ 	{name: "ptq_08", prompt: "I get stuck on certain issues and can't move on.", labels: ptq_scale, required: false},
  	{name: "ptq_09", prompt: "I keep asking myself questions without finding an answer.", labels: ptq_scale, required: false},
  	{name: "ptq_10", prompt: "My thoughts prevent me from focusing on other things.", labels: ptq_scale, required: false},
  	{name: "ptq_11", prompt: "I keep thinking about the same issue all the time.", labels: ptq_scale, required: false},
